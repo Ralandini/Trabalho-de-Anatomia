@@ -1,0 +1,12 @@
+body {
+    background-image: linear-gradient(to right, green, yellow, green);
+    font-size: 15px;
+}
+
+p {
+    color: beige;
+}
+
+h1 {
+    color: azure;
+}
