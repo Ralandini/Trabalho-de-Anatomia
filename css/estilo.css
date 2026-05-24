@@ -1,12 +1,71 @@
-body {
-    background-image: linear-gradient(to right, green, yellow, green);
-    font-size: 15px;
+* {
+    box-sizing: border-box;
+    /* border: 1px solid red; */
 }
 
-p {
-    color: beige;
+body {
+    background: green;
+    font-size: 18px;
+    color: gold;
+    text-shadow: 2px 1px black;
+    margin: 0;
+
 }
+
+
 
 h1 {
-    color: azure;
+    text-align: center;
+    background-image: linear-gradient(black);
+}
+
+h2 {
+    text-align: center;
+}
+
+.botao {
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    background-image: linear-gradient(to bottom left, yellow, black);
+    padding: 10px;
+    margin-top: 0;
+    border-radius: 10px;
+    border: 2px solid black;
+}
+
+.botao:hover {
+    background-image: linear-gradient(to bottom left, rgb(33, 237, 33), black);
+}
+
+.flex-pai {
+
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+
+.flex-pai div {
+    border: 1px solid yellow;
+    background-color: black;
+    margin: 15px;
+    padding: 30px;
+    box-shadow: 5px 5px 4px black;
+    border-radius: 5px;
+}
+
+.flex-pai div:hover {
+    background-image: linear-gradient(to bottom left, yellow, green)
+}
+
+.flex-pai div p {
+    display: none;
+    color: white;
+    font-size: 18px;
+}
+
+.flex-pai div:hover p {
+    display: block;
 }
