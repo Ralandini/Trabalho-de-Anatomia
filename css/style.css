@@ -1,0 +1,46 @@
+/* * {} */
+body {
+    background-image: linear-gradient(to right, white, white, rgb(69, 38, 38));
+    margin: 0;
+}
+
+/* h1 {
+    background-image: linear-gradient(to bottom left, green, yellow);
+    margin: 0;
+} */
+
+ul {
+    background-color: antiquewhite;
+}
+
+li {
+    background-image: linear-gradient(to right, white, white, rgb(69, 38, 38));
+}
+
+ul {
+    background-image: linear-gradient(to right, white, white, rgb(69, 38, 38));
+}
+
+img {
+    border-radius: 50px;
+    border-color: black;
+    background: none;
+}
+
+p {
+    text-indent: 40px;
+    font-size: 20px;
+    margin: 0;
+
+}
+
+div {
+    margin-left: 30px;
+    margin-top: 70px;
+    border-radius: 10px;
+    font-size: 10px;
+    background-color: rgb(224, 127, 43);
+    width: 400px;
+    height: 250px;
+    box-shadow: black 10 20;
+}
