@@ -2,6 +2,7 @@
 body {
     background-image: linear-gradient(to right, white, white, rgb(69, 38, 38));
     margin: 0;
+
 }
 
 /* h1 {
@@ -43,4 +44,8 @@ div {
     width: 400px;
     height: 250px;
     box-shadow: black 10 20;
+}
+
+html {
+    width: 500px;
 }
